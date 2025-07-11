@@ -244,6 +244,12 @@ body {
   font-size: 14px;
 }
 
+.difficulty-easy {
+  color: #00ff08;
+  font-weight: 700;
+  text-shadow: 0 0 5px #ffa500;
+}
+
 .difficulty-medium {
   color: #ffa500;
   font-weight: 700;

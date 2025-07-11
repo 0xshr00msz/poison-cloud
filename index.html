@@ -10,7 +10,7 @@
   <title>AWS CTF</title>
 </head>
 <body>
-    <!-- Matrix Style Background Sheesh !!! -->
+  <!-- Matrix Style Background Sheesh !!! -->
   <div class="matrix-bg"></div>
 
   <!-- HEADER -->
@@ -71,16 +71,10 @@
             <span class="prompt">0xshr00msz@aws-ctf:~$</span> <span class="cursor">_</span>
           </div>
         </div>
-        <div class="challenge-actions">
-          <button class="hacker-btn primary" onclick="accessChallenge(1)">
-            <span class="btn-text">ACCESS CHALLENGE</span>
-            <span class="btn-glitch">ACCESS CHALLENGE</span>
-          </button>
-        </div>
       </div>
     </section>
 
-    <!-- Challenge 2 - Right Side -->
+    <!-- Challenge 2 - Middle Section -->
     <section class="challenge-section right-challenge">
       <div class="challenge-terminal">
         <div class="terminal-header-bar">
@@ -116,15 +110,62 @@
             <span class="prompt">maxwell@aws-ctf:~$</span> <span class="cursor">_</span>
           </div>
         </div>
-        <div class="challenge-actions">
-          <button class="hacker-btn primary" onclick="accessChallenge(2)">
-            <span class="btn-text">ACCESS CHALLENGE</span>
-            <span class="btn-glitch">ACCESS CHALLENGE</span>
-          </button>
-        </div>
       </div>
     </section>
 
+    <!-- Challenge 3 - Right Side -->
+    <section class="challenge-section right-challenge">
+      <div class="challenge-terminal">
+        <div class="terminal-header-bar">
+          <span class="terminal-title-text">challenge_03.sh</span>
+          <div class="terminal-controls-small">
+            <span class="control-small"></span>
+            <span class="control-small"></span>
+            <span class="control-small"></span>
+          </div>
+        </div>
+        <div class="terminal-content">
+          <div class="terminal-line">
+            <span class="prompt">mark_jaily@aws-ctf:~$</span> <span class="command">cat challenge_03.txt</span>
+          </div>
+          <div class="terminal-output">
+            <div class="challenge-info">
+              <p class="challenge-title">[CHALLENGE 03] - ENCRYPTED DATA</p>
+              <p class="challenge-desc">
+                We've retrieved a set of AWS credentials from one of Cipher's soldiers. 
+                  He told us they could be used to access an S3 bucket called "secret-messages" on us-west-2. 
+                  We tried accessing the bucket but can't figure out what to do with its contents. 
+                  Help us retrieve the secret message.
+                <br> <br>
+                  credentials: XX XX XX XX
+              </p>
+              <p class="challenge-desc">Difficulty: <span class="difficulty-medium">MEDIUM</span></p>
+              <div class="challenge-status">
+                <span class="status-indicator"></span>
+                <span class="status-text">ACTIVE</span>
+              </div>
+            </div>
+          </div>
+          <div class="terminal-line">
+            <span class="prompt">mark_jaily@aws-ctf:~$</span> <span class="cursor">_</span>
+          </div>
+        </div>
+      </div>
+    </section>
   </main
+
+  <!-- Footer Terminal -->
+  <footer class="terminal-footer">
+    <div class="footer-terminal">
+      <div class="terminal-line">
+        <span class="prompt">0xshr00msz@aws-community-day:~$</span> 
+        <span class="command">echo "Good luck, hacker. May the flags be with you."</span>
+      </div>
+      <div class="terminal-output">
+        <p>Good luck, hacker. May the flags be with you.</p>
+        <p class="footer-info">AWS Community Day Davao 2025 | Organized by the AWS User Group - Davao</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -294,13 +294,6 @@ body {
   font-size: 12px;
 }
 
-/* Challenge Actions */
-.challenge-actions {
-  padding: 20px;
-  text-align: center;
-  border-top: 1px solid #30363d;
-}
-
 .hacker-btn {
   background: linear-gradient(45deg, #0d1117, #161b22);
   border: 2px solid #00ff00;
@@ -360,4 +353,24 @@ body {
 @keyframes btn-glitch {
   0%, 100% { opacity: 0; transform: translate(-50%, -50%); }
   50% { opacity: 1; transform: translate(-48%, -52%); }
+}
+
+/* Terminal Footer */
+.terminal-footer {
+  background: rgba(0, 0, 0, 0.9);
+  border-top: 2px solid #00ff00;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-terminal {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-info {
+  color: #8cc8ff;
+  font-size: 12px;
+  margin-top: 10px;
+  opacity: 0.8;
 }
